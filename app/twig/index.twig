@@ -1,0 +1,269 @@
+{% extends "layouts/app.twig" %}
+
+{% block pageTitle %}Главная страница{% endblock %}
+
+
+{% block content %}
+
+    <main class="page-main">
+        <section class="page-hero">
+            <video width="100%"  preload="auto" autoplay="true" loop="loop">
+                <source src="video/wheat.webm" type="video/webm">
+                <source src="video/wheat.mp4" type="video/mp4">
+            </video>
+            <div class="page-hero-contain uk-container uk-container-center">
+                <div class="page-hero__logo">
+                    <img src="../images/logo.svg" alt="">
+                </div>
+                <div class="page-hero__description line-dec">
+                    <p>Проектирование, поставка и монтаж элеваторов</p>
+                </div>
+            </div>
+        </section>
+        <section class="partners section" data-stellar-background-ratio="0.5" >
+            <div class="uk-container uk-container-center">
+            <div class="section-title">
+                <p>Что получаете вы, выбрав «Агропроминжиниринг»</p>
+            </div>
+            <div class="base-text uk-text-center mb40">
+                <p>
+                    Комплексные решения для послеуборочной обработки и хранения продукции растениеводства «под ключ», от проекта до ввода в эксплуатацию c нашими надёжными партнёрами
+                </p>
+            </div>
+            <div class="partners-list">
+                <div class="partners-item">
+                    <a class="uk-thumbnail" href="">
+                        <div class="uk-thumbnail-img">
+                            <img src="../images/pr1.jpg" alt="">
+                        </div>
+
+                        <div class="uk-thumbnail-caption">
+                            <p>Европейское качество зерновых транспортёров и зерносушилок PRECO (LV)</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="partners-item">
+                    <a class="uk-thumbnail" href="">
+                        <div class="uk-thumbnail-img">
+                            <img src="../images/br.jpg" alt="">
+                        </div>
+
+                        <div class="uk-thumbnail-caption">
+                            <p>Двухсотлетний английский опыт строительства силосов BENTALL ROWLANDS (UK)</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="partners-item">
+                    <a class="uk-thumbnail" href="">
+                        <div class="uk-thumbnail-img">
+                            <img src="../images/nbm1.jpg" alt="">
+                        </div>
+
+                        <div class="uk-thumbnail-caption">
+                            <p>Металлоконструкции и быстровозводимые здания из ЛСТК от JORIS IDE (EU)</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="partners-item">
+                    <a class="uk-thumbnail" href="">
+                        <div class="uk-thumbnail-img">
+                            <img src="../images/joriside.png" alt="">
+                        </div>
+
+                        <div class="uk-thumbnail-caption">
+                            <p>
+                                Готовые решения <br>
+                                в области самотёчных <br>
+                                транспортных систем и <br>
+                                систем аспирации
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section class="section news" data-stellar-background-ratio="0.5">
+            <div class="uk-container uk-container-center tac">
+                    <div class="mb25 fz22 lh25">
+                        <div class="font-bold mb30">
+                            <p>Хорошая новость!</p>
+                        </div>
+
+                        <div class="font-bold">
+                            <p>При заказе на сайте вы получаете гарантированную скидку!</p>
+                        </div>
+                        <div>
+                            <p>Узнайте подробнее об уникальной программе лояльности, включающей скидки от наших
+                                партнеров – производителей оборудования для хранения и обработки зерновых.</p>
+                        </div>
+                    </div>
+                <a href="#" class="btn red-btn big-btn">Получить скидку</a>
+                </div>
+        </section>
+
+        <section class="section equipment parallax-window" data-stellar-background-ratio="0.5">
+            <div class="section-title text-white">
+                <p>Оборудование</p>
+            </div>
+            <div class="uk-container uk-container-center">
+                <div class="equipment-list mb30">
+                    <div class="equipment-item-wrapper">
+                        <a href="#"  class="equipment-item">
+                            <div class="equipment-item__img">
+                                <img src="../images/ss3.jpg" alt="">
+                            </div>
+                            <div class="equipment-item__caption">
+                                <p>Промышленные ангары</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div  class="equipment-item-wrapper">
+                        <a href="#"  class="equipment-item">
+                            <div class="equipment-item__img">
+                                <img src="../images/lent.jpg" alt="">
+                            </div>
+                            <div class="equipment-item__caption">
+                                <p>Промышленные ангары</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="equipment-item-wrapper">
+                        <a href="#"  class="equipment-item">
+                            <div class="equipment-item__img">
+                                <img src="../images/silosy.jpg" alt="">
+                            </div>
+                            <div class="equipment-item__caption">
+                                <p>Промышленные ангары</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div  class="equipment-item-wrapper">
+                        <a href="#"  class="equipment-item">
+                            <div class="equipment-item__img">
+                                <img src="../images/krs.jpg" alt="">
+                            </div>
+                            <div class="equipment-item__caption">
+                                <p>Промышленные ангары</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div  class="equipment-item-wrapper">
+                        <a href="#"  class="equipment-item">
+                            <div class="equipment-item__img">
+                                <img src="../images/dop-equipment.jpg" alt="">
+                            </div>
+                            <div class="equipment-item__caption">
+                                <p>Промышленные ангары</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="equipment-item-wrapper">
+                        <a href="#"  class="equipment-item">
+                            <div class="equipment-item__img">
+                                <img src="../images/zernooshist.jpg" alt="">
+                            </div>
+                            <div class="equipment-item__caption">
+                                <p>Промышленные ангары</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="tac">
+                    <a href="#" class="btn red-btn big-btn mb30">заказать оборудование</a>
+                    <p class="fz22 text-white">Наши специалисты свяжутся с вами в течение 24 часов!</p>
+                </div>
+
+            </div>
+        </section>
+        <section class="section sentence">
+            <div class="uk-container uk-container-center">
+                <div class="section-title">
+                    <p>Что мы предлагаем?</p>
+                </div>
+                <div class="sentence-list mb50">
+                    <div class="sentence-item-wrapper">
+                        <div class="sentence-item">
+                            <div class="sentence-img">
+                                <img src="images/operator.jpg" alt="">
+                            </div>
+                            <div class="sentence-title">
+                                <p>Консалтинг</p>
+                            </div>
+                            <div class="sentence-description">
+                                <p>
+                                    Мы готовы совершенно бесплатно проконсультировать вас по всем вопросам, связанным с хранением зерна. Цена на элеваторы рассчитывается индивидуально, по заявке. Купить зерносушилку или зерноочистительную машину можно в отделе продаж.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sentence-item-wrapper">
+                        <div class="sentence-item">
+                            <div class="sentence-img">
+                                <img src="images/tools.png" alt="">
+                            </div>
+                            <div class="sentence-title">
+                                <p>Проектирование</p>
+                            </div>
+                            <div class="sentence-description">
+                                <p>
+                                    Мы проектируем сельскохозяйственные и промышленные здания и сооружения любой сложности: элеваторы, овощехранилища, производственно-складские помещения. Закажите расчет элеватора на сайте и получите гарантированную скидку!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sentence-item-wrapper">
+                        <div class="sentence-item">
+                            <div class="sentence-img">
+                                <img src="images/crane.jpg" alt="">
+                            </div>
+                            <div class="sentence-title">
+                                <p>Монтаж</p>
+                            </div>
+                            <div class="sentence-description">
+                                <p>
+                                    Мы построим здание и смонтируем оборудование любой сложности в кратчайшие сроки. При заказе комплексной услуги «под ключ» вы можете рассчитывать на самое выгодное предложение! Выполняем монтаж зерносушилки, монтаж силосов для зерна.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sentence-item-wrapper">
+                        <div class="sentence-item">
+                            <div class="sentence-img">
+                                <img src="images/cogs.jpg" alt="">
+                            </div>
+                            <div class="sentence-title">
+                                <p>Модернизация</p>
+                            </div>
+                            <div class="sentence-description">
+                                <p>Реконструкция элеваторов любой сложности, модернизация оборудования для приема зерна с автотранспорта, замена узлов и запасных частей зернохранилищ – это далеко не полный список возможностей нашей команды!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tac">
+                    <a href="#" class="btn big-btn red-btn ttu mb20">Заказать предварительный расчет</a>
+                    <p class="fz22">Эта услуга предоставляется бесплатно</p>
+                </div>
+            </div>
+        </section>
+        <section class="map-section p-rel ovh" >
+        <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+        <script src="js/YaMap.js"></script>
+        <div class="ovh" id="map">
+
+        </div>
+        <div class="map-content">
+            <div class="section-title us-n">
+                <p>Контакты</p>
+            </div>
+            <div class="map-content__description">
+                <a href="tel:+79601154555" class="map-content__phone mb10">+7 (960) 115-4555</a>
+                <a href="mailto:info@apemail.ru" class="map-content__mail">info@apemail.ru</a>
+            </div>
+            <img src="../images/man.png" alt="" class="map__man uk-visible-large">
+        </div>
+    </section>
+    </main>
+
+{% endblock %}

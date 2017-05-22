@@ -1,0 +1,34 @@
+<header class="page-header ovh" >
+        <div class="page-header__navbar " >
+            <div class="uk-grid">
+                <div class=" uk-width-large-2-10">
+                <div class="page-header__logo">
+                    <img src="images/logo.svg" alt="">
+                </div>
+            </div>
+                <div class="uk-width-large-6-10 p-rel">
+                    <ul class="page-header__nav p-rel" >
+                        <li class="uk-parent" data-uk-dropdown>
+                        <a href="" class="b-page-header__navbar-link fz15 ttu">Оборудование</a>
+                        <div class="uk-dropdown uk-dropdown-navbar list-dd-wrapper">
+                            <ul>
+                                {% for 1  in 1..5 %}
+                                    <li><a href="#">Зерновые сушилки</a></li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                        </li>
+                        <li><a href="">Услуги</a></li>
+                        <li><a href="">Партнеры</a></li>
+                        <li><a href="">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="uk-width-large-2-10">
+                    <div class="page-header__contacts">
+                        <a href="tel:+79601154555" class="page-header__phone mb5">+7 (960) 115-4555</a>
+                        <a href="#" class="btn red-btn send-call-btn">Заказать обратный звонок</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+</header>
